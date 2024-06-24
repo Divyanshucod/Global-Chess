@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignore node_modules
+node_modules/
+
+# Ignore the build output directory except for the compiled JS files
+dist/*
+!dist/**/*.js
+
+# Ignore environment variable files
+.env
+.ts

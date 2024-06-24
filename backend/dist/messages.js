@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DISCONNECTED = exports.REFRESHED = exports.NEW_GAMEDENI = exports.NEW_GAMEACC = exports.NEW_GAME = exports.Game_Over = exports.MOVE = exports.INIT_GAME = void 0;
+exports.INIT_GAME = 'init_game';
+exports.MOVE = 'move';
+exports.Game_Over = 'game_over';
+exports.NEW_GAME = 'new_game';
+exports.NEW_GAMEACC = 'new_game_accepted';
+exports.NEW_GAMEDENI = 'new_game_denied';
+exports.REFRESHED = 'refresh';
+exports.DISCONNECTED = 'disconnected';
